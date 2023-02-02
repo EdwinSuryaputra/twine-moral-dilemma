@@ -1,0 +1,53 @@
+#dialogueArea {
+    background-color: black;
+    align-items: center;
+    display: block;
+    border: 0.5vh;
+    border-style: solid;
+    border-color: black;
+    border-radius: 2vh;
+  }
+  
+  #dialogueArea .dialogueActor {
+    align-items: center;
+    color: blue;
+    margin-left: 5vh;
+  }
+  
+  #dialogueArea .dialogueTextArea .dialogueText {
+    animation: fadeInFromNone 1s ease-out;
+    display: block;
+    color: white;
+    font-size: 7vh;
+    font-family: 'Calibri';
+    margin-left: 5vh;
+  }
+  
+  @keyframes fadeInFromNone {
+    0% {
+      bottom: 100%;
+      transform: translate(0%, -100%);
+      opacity: 0;
+    }
+    25% {
+      bottom: 75%;
+      transform: translate(0%, -75%);
+      opacity: 0.5;
+    }
+    50% {
+      bottom: 50%;
+      transform: translate(0%, -50%);
+      opacity: 0.75;
+    }
+    75% {
+      bottom: 75%;
+      transform: translate(0%, -25%);
+      opacity: 0.75;
+    }
+    100% {
+      bottom: 100%;
+      transform: translate(0%, 0%);
+      opacity: 1;
+    }
+  }
+  

@@ -1,0 +1,8 @@
+<%= window.story.passage("HUD").render() %>
+
+<%
+	s.dialogueValue = "Halo player… Terima kasih telah meluangkan waktumu"
+    s.imageValue = "https://rare-gallery.com/uploads/posts/1163209-window-cityscape-night-room-indoors-bar-restaurant-interior-design-estate-dining-room-design-home-condominium-living-room.jpg"
+%>
+
+[[C1P2]]
